@@ -37,7 +37,7 @@ export function Navbar() {
           FAQ
         </Link>
         <a
-          href="#faq"
+          href="https://rsvp.soon.it/h2o"
           className="btn btn-primary"
           style={{ padding: "10px 20px", fontSize: "0.82rem", letterSpacing: "0.05em" }}
         >
