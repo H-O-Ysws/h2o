@@ -1,7 +1,6 @@
 
 import { Navbar }    from "@/components/ui/navbar";
 import { Hero }       from "@/components/ui/hero";
-import { Timetable }  from "@/components/ui/timetable";
 import { FAQ }        from "@/components/ui/faq";
 import { Footer }     from "@/components/ui/footer";
 
@@ -11,11 +10,9 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <Timetable />
         <FAQ />
       </main>
       <Footer />
     </>
   );
 }
-

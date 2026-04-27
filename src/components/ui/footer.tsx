@@ -3,9 +3,8 @@ export function Footer() {
   return (
     <footer
       style={{
-        background: "var(--black)",
-        color: "var(--white)",
-        borderTop: "3px solid var(--blue)",
+        background: "var(--ink)",
+        color: "var(--foam)",
         padding: "36px clamp(16px, 4vw, 40px)",
         display: "flex",
         flexWrap: "wrap",
@@ -18,11 +17,10 @@ export function Footer() {
       }}
     >
       <span style={{ fontWeight: 700, fontSize: "0.95rem" }}>H2O YSWS</span>
-      <span style={{ color: "var(--cyan)", textTransform: "uppercase", fontSize: "0.68rem", letterSpacing: "0.12em" }}>
+      <span style={{ color: "var(--sun)", textTransform: "uppercase", fontSize: "0.68rem", letterSpacing: "0" }}>
         A HackClub YSWS
       </span>
-      <span style={{ color: "#555" }}>&copy; 2026</span>
+      <span style={{ color: "var(--sand)" }}>&copy; 2026</span>
     </footer>
   );
 }
-

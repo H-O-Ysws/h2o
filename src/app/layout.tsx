@@ -1,12 +1,12 @@
 
 import type { Metadata } from "next";
-import { Space_Mono } from "next/font/google";
+import { Fredoka } from "next/font/google";
 import "./globals.css";
 
-const spaceMono = Space_Mono({
-  weight: ["400", "700"],
+const fredoka = Fredoka({
+  weight: ["500", "700"],
   subsets: ["latin"],
-  variable: "--font-mono",
+  variable: "--font-bubble",
   display: "swap",
 });
 
@@ -17,10 +17,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={spaceMono.variable}>
+    <html lang="en" className={fredoka.variable}>
       <body>{children}</body>
     </html>
   );
 }
-
 
