@@ -75,9 +75,8 @@ export function FAQ() {
       id="faq"
       className="faq-section"
       style={{
-        background: "linear-gradient(180deg, rgba(245, 214, 99, 0) 0%, rgba(245, 214, 99, 0) 64%, var(--sand) 76%, var(--sand) 100%)",
-        padding: "0 clamp(16px, 5vw, 48px) clamp(72px, 10vw, 112px)",
-        marginTop: "calc(clamp(-170px, -14vw, -112px) - 2px)",
+        padding: "clamp(92px, 10vw, 132px) clamp(16px, 5vw, 48px) clamp(72px, 10vw, 112px)",
+        marginTop: "clamp(-96px, -7vw, -58px)",
         position: "relative",
         zIndex: 3,
       }}
@@ -90,9 +89,9 @@ export function FAQ() {
             fontSize: "clamp(2.35rem, 7vw, 4.4rem)",
             letterSpacing: "0",
             marginBottom: "clamp(22px, 5vw, 38px)",
-            color: "var(--foam)",
+            color: "var(--ink)",
             textAlign: "center",
-            textShadow: "0 6px 18px rgba(0, 48, 96, 0.48)",
+            textShadow: "0 6px 18px rgba(0, 48, 96, 0.16)",
           }}
         >
           FAQ

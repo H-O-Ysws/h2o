@@ -13,7 +13,7 @@ export function Hero() {
         alignItems: "center",
         justifyContent: "flex-start",
         textAlign: "center",
-        padding: "clamp(92px, 13vw, 132px) clamp(16px, 5vw, 48px) clamp(190px, 23vw, 270px)",
+        padding: "clamp(150px, 14vw, 180px) clamp(16px, 5vw, 48px) clamp(170px, 20vw, 240px)",
       }}
     >
 
@@ -22,10 +22,10 @@ export function Hero() {
         style={{
           fontFamily: "var(--mono)",
           fontWeight: 700,
-          fontSize: "clamp(2.7rem, 10vw, 7.2rem)",
+          fontSize: "clamp(2.5rem, 8.8vw, 5.8rem)",
           letterSpacing: "0",
           lineHeight: 0.94,
-          maxWidth: "920px",
+          maxWidth: "900px",
           marginBottom: "clamp(20px, 4vw, 34px)",
           color: "var(--foam)",
           textShadow: "0 7px 18px rgba(0, 56, 112, 0.42)",
@@ -40,7 +40,7 @@ export function Hero() {
           fontFamily: "var(--mono)",
           fontSize: "clamp(1rem, 2.4vw, 1.25rem)",
           lineHeight: 1.45,
-          maxWidth: "560px",
+          maxWidth: "720px",
           marginBottom: "clamp(30px, 5vw, 48px)",
           color: "var(--foam)",
           textShadow: "0 4px 14px rgba(0, 38, 78, 0.55)",

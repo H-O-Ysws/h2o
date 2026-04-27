@@ -4,7 +4,8 @@
   --ocean: #006ec8;
   --deep-ocean: #004b94;
   --sun: #e6bd2f;
-  --sand: #f5d663;
+  --sand: #e8cf79;
+  --soft-sand: #ddc884;
   --palm: #7c9f2f;
   --ink: #030711;
   --foam: #fff8d3;
@@ -36,7 +37,7 @@ html {
 
 body {
   font-family: var(--mono);
-  background: var(--ocean) url("/h20_bg.png") center top / cover no-repeat;
+  background: var(--soft-sand);
   color: var(--ink);
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
@@ -45,11 +46,15 @@ body {
 .hero-bg {
   background-color: var(--ocean);
   background-image:
-    linear-gradient(180deg, rgba(0, 68, 140, 0.02) 0%, rgba(0, 68, 140, 0) 52%, rgba(245, 214, 99, 0.92) 100%),
+    linear-gradient(180deg, rgba(0, 68, 140, 0) 0%, rgba(0, 68, 140, 0) 52%, rgba(221, 200, 132, 0.12) 72%, rgba(221, 200, 132, 0.62) 92%, var(--soft-sand) 100%),
     url("/h20_bg.png");
   background-position: center top, center top;
   background-size: cover, cover;
   background-repeat: no-repeat, no-repeat;
+}
+
+.faq-section {
+  background: linear-gradient(180deg, rgba(221, 200, 132, 0) 0%, rgba(221, 200, 132, 0.7) 52px, var(--soft-sand) 118px, var(--soft-sand) 100%);
 }
 
 .nav-link {
@@ -210,10 +215,6 @@ body {
 @media (max-width: 420px) {
   .btn {
     padding-inline: 20px;
-  }
-
-  .faq-section {
-    margin-top: -145px !important;
   }
 
   .hero-bg {
