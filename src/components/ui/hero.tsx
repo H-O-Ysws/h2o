@@ -47,8 +47,7 @@ export function Hero() {
           fontWeight: 700,
         }}
       >
-        You ship projects we ship you to a 5 day event in Goa, India.
-        Treasure Hunt, Buildathon, Fun Mini Events & Many more...
+        This October 100+ hackers from around the world, who spend 60hrs building projects will go to a 5 day hackathon in Goa, India.
       </p>
 
       <div
