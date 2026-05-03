@@ -2,10 +2,22 @@
 
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
+import Link from "next/link";
 const FAQ_ITEMS = [
   {
     q: "What is H2O?",
-    a: "H2O is a hackclub you ship we ship event event where you ship projects, and collect shells to get invited to 5 day hackathon in Goa, India."
+    a: (
+      <>H2O is a{" "}
+        <Link 
+        href="https://hackclub.com" 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline"
+        >
+        HackClub
+        </Link> you ship we ship event event where you ship projects, and collect shells to get invited to 5 day hackathon in Goa, India.
+        </>
+      )
   },
   {
     q: "Who can apply?",
@@ -21,11 +33,31 @@ const FAQ_ITEMS = [
   },
   {
     q: "What kind of projects can I ship?",
-    a: "All types of projects are allowed. Lapse must be used for hardware projects, and Hackatime for software or games, time tracked while making art and assets will be counted."
+    a: (
+      <>
+      All types of projects are allowed.{" "}
+      <Link 
+        href="https://lapse.hackclub.com" 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline"
+      >
+      Lapse
+      </Link> must be used for hardware projects, and{" "}
+      <Link 
+        href="https://hackatime.hackclub.com" 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline"
+      >
+      Hackatime
+      </Link> for software or games, time tracked while making art and assets will be counted.
+      </>
+      )
   },
 ];
 
-function AccordionItem({ q, a, idx }: { q: string; a: string; idx: number }) {
+function AccordionItem({ q, a, idx }: { q: string; a: React.ReactNode; idx: number }) {
   const [open, setOpen] = useState(false);
 
   return (
