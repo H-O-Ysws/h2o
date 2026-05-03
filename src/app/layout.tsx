@@ -12,7 +12,7 @@ const fredoka = Fredoka({
 
 export const metadata: Metadata = {
   title: "H2O YSWS",
-  description: "A 7-day in-person Hack Club YSWS event in Goa, India."
+  description: "A 5 day in person Hack Club YSWS event in Goa, India."
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
