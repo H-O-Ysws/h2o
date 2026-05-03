@@ -47,7 +47,7 @@ export function Hero() {
           fontWeight: 700,
         }}
       >
-        You ship projects we ship you to a 7 day event in Goa, India.
+        You ship projects we ship you to a 5 day event in Goa, India.
         Treasure Hunt, Buildathon, Fun Mini Events & Many more...
       </p>
 
