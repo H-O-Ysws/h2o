@@ -11,7 +11,7 @@ const fredoka = Fredoka({
 });
 
 export const metadata: Metadata = {
-  title: "H2O YSWS",
+  title: "H2O",
   description: "A 5 day in person Hack Club YSWS event in Goa, India."
 };
 
