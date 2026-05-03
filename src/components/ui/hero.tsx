@@ -31,8 +31,9 @@ export function Hero() {
           textShadow: "0 7px 18px rgba(0, 56, 112, 0.42)",
         }}
       >
-        Ship Something{" "}
-        <span style={{ color: "var(--sun)" }}>Real.</span>
+        Home{" "}
+        <span style={{ color: "var(--sun)" }}>2{" "}</span>
+        Ocean
       </h1>
 
       <p
