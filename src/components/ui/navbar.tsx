@@ -36,7 +36,7 @@ export function Navbar() {
           whiteSpace: "nowrap",
         }}
       >
-        H2O YSWS
+        H2O
       </Link>
 
       <div style={{ display: "flex", alignItems: "center", gap: "clamp(10px, 3vw, 20px)" }}>
