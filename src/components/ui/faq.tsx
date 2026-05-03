@@ -4,20 +4,24 @@ import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 const FAQ_ITEMS = [
   {
-    q: "What is H2O YSWS?",
-    a: "H2O YSWS is a hackclub you ship we ship event,  a event where you ship projects collect shells and shop stuff and get an invite to 5 day event at Goa India.."
+    q: "What is H2O?",
+    a: "H2O is a hackclub you ship we ship event event where you ship projects, and collect shells to get invited to 5 day hackathon in Goa, India."
   },
   {
     q: "Who can apply?",
-    a: "Any high schooler from around the world can apply aged between 13-18yrs. No experience is requied just a driveeee to make something cool and shippppp.."
+    a: "Anybody aged 13-18 (inclusive) at the time of the event. No experience required."
+  },
+  {
+    q: "How do I qualify",
+    a: "Ship 60hrs to get an invite to the event, additional hours can be spent for travel stipends, or in the shop."
   },
   {
     q: "Is there a cost to attend?",
-    a: "Yuss, the cost is you being creative, happy, crazyyyy and buidling projects out of your mind. We will cover your travel and accomodation for the 5 day event.."
+    a: "The event is 100% free for all participants, food and accomodation for all 5 days will be covered."
   },
   {
-    q: "What kind of projects can i ship?",
-    a: "ANYTHINGGGGG, yusssss anything just open your creativity it can be an app, a tool, a site, a robot.. or even an robotic tissue thrower cause why nottt. Only thing to mind is the projects not being nsfw heheheh no."
+    q: "What kind of projects can I ship?",
+    a: "All types of projects are allowed. Lapse must be used for hardware projects, and Hackatime for software or games, time tracked while making art and assets will be counted."
   },
 ];
 
