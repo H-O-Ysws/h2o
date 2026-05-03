@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState } from "react";
@@ -6,7 +5,7 @@ import { ChevronDown } from "lucide-react";
 const FAQ_ITEMS = [
   {
     q: "What is H2O YSWS?",
-    a: "H2O YSWS is a hackclub you ship we ship event,  a event where you ship projects collect shells and shop stuff and get an invite to 7 day event at Goa India.."
+    a: "H2O YSWS is a hackclub you ship we ship event,  a event where you ship projects collect shells and shop stuff and get an invite to 5 day event at Goa India.."
   },
   {
     q: "Who can apply?",
@@ -14,7 +13,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "Is there a cost to attend?",
-    a: "Yuss, the cost is you being creative, happy, crazyyyy and buidling projects out of your mind. We will cover your travel and accomodation for the 7 day event.."
+    a: "Yuss, the cost is you being creative, happy, crazyyyy and buidling projects out of your mind. We will cover your travel and accomodation for the 5 day event.."
   },
   {
     q: "What kind of projects can i ship?",
