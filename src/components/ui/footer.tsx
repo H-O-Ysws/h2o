@@ -16,7 +16,7 @@ export function Footer() {
         letterSpacing: "0.04em",
       }}
     >
-      <span style={{ fontWeight: 700, fontSize: "0.95rem" }}>H2O YSWS</span>
+      <span style={{ fontWeight: 700, fontSize: "0.95rem" }}>H2O</span>
       <span style={{ color: "var(--sun)", textTransform: "uppercase", fontSize: "0.68rem", letterSpacing: "0" }}>
         A HackClub YSWS
       </span>

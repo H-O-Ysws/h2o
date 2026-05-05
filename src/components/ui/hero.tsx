@@ -31,8 +31,9 @@ export function Hero() {
           textShadow: "0 7px 18px rgba(0, 56, 112, 0.42)",
         }}
       >
-        Ship Something{" "}
-        <span style={{ color: "var(--sun)" }}>Real.</span>
+        Home{" "}
+        <span style={{ color: "var(--sun)" }}>2{" "}</span>
+        Ocean
       </h1>
 
       <p
@@ -47,8 +48,7 @@ export function Hero() {
           fontWeight: 700,
         }}
       >
-        You ship projects we ship you to a 5 day event in Goa, India.
-        Treasure Hunt, Buildathon, Fun Mini Events & Many more...
+        This October 100+ hackers from around the world, who spend 60hrs building projects will go to a 5 day hackathon in Goa, India.
       </p>
 
       <div
